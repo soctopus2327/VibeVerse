@@ -1,0 +1,28 @@
+from openai import OpenAI
+import os
+client = OpenAI(api_key="APIKEY")
+def OpenAiCall(message):
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": "your job is to give me answer in the form of lists in bullet points and if I ask about different things..first give heading and then further give its answer in points"
+            },
+            {
+                "role": "user",
+                "content": "{}".format(message)
+            }
+        ],
+        temperature=1,
+        max_tokens=256,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0
+        )
+    output=response.choices[0].message.content
+    print(output)
+    os.system(output)
+
+msg=input("Enter")
+OpenAiCall(msg)
