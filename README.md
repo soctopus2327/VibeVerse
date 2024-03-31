@@ -5,7 +5,9 @@ Your vibe, Your verse, Your perfect mix.
 An AI based recommendation app that gives you cross-medium entertainment recommendations tailored to your likings.
 
 Video Demo: [https://youtu.be/uK9j-y49R4Q](url)
+
 Figma UI: [https://www.figma.com/proto/dxj2X63c3EwhSgWtem0oUP/VibeVerse?type=design&node-id=7-97&t=qELhGjX4SR7G4eqi-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A97](url)
+
 ---
 Have you ever finished a life-changing book and felt the urge to experience it for yourself by visiting the perfect location or eating the perfect food? Or wanted to listen to a perfect song that summarizes the feelings you just felt watching that one movie? VibeVerse is the solution you are looking for.
 
